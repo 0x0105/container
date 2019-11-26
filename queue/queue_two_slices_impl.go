@@ -19,13 +19,13 @@ func newEntry() *entry {
 }
 
 type entry struct {
-	s1    stack.Stack
-	s2    stack.Stack
+	s1   stack.Stack
+	s2   stack.Stack
 	size int
 }
 
 func (e *entry) Clear() {
-	*e =  *newEntry()
+	*e = *newEntry()
 }
 
 func (e *entry) reload() {
@@ -76,4 +76,3 @@ func (e *entry) String() string {
 	}
 	return s.String()
 }
-

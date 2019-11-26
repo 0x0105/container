@@ -1,7 +1,7 @@
 data_structure - Common Golang Data Structure
 ================================
 
-[![Build Status](https://travis-ci.org/stretchr/testify.svg)](https://travis-ci.org/stretchr/testify) [![Go Report Card](https://goreportcard.com/badge/github.com/stretchr/testify)](https://goreportcard.com/report/github.com/stretchr/testify) [![GoDoc](https://godoc.org/github.com/stretchr/testify?status.svg)](https://godoc.org/github.com/stretchr/testify)
+[![Build Status](https://travis-ci.org/stretchr/testify.svg)](https://travis-ci.org/whuhyw/data_structure) [![Go Report Card](https://goreportcard.com/badge/github.com/whuhyw/data_structure)](https://goreportcard.com/report/github.com/whuhyw/data_structure) [![GoDoc](https://godoc.org/github.com/whuhyw/data_structure?status.svg)](https://godoc.org/github.com/whuhyw/data_structure)
 
 Go code (golang) set of packages that provide common data structure
 

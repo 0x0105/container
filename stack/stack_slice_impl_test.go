@@ -22,5 +22,4 @@ func TestNewStack(t *testing.T) {
 }
 
 func Test_entry(t *testing.T) {
-
 }

@@ -32,7 +32,7 @@ func (e *entry) Equal(s Stack) bool {
 }
 
 func (e *entry) String() string {
-	return fmt.Sprint("%#",e.s)
+	return fmt.Sprint("%#", e.s)
 }
 
 func (e *entry) Push(element Element) {
