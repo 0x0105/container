@@ -1,7 +1,7 @@
 package queue
 
 import (
-	"github.com/whuhyw/data_structure/stack"
+	"github.com/whuhyw/container/stack"
 )
 
 var _ Queue = (*entry)(nil)

@@ -1,4 +1,4 @@
-module github.com/whuhyw/data_structure
+module github.com/whuhyw/container
 
 go 1.13
 
