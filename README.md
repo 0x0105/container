@@ -43,7 +43,7 @@ func main() {
 Staying up to date
 ==================
 
-To update container to the latest version, use `go get -u github.com/whuhyw/data_structure`.
+To update container to the latest version, use `go get -u github.com/whuhyw/container`.
 
 ------
 
