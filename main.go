@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"aaron.local/queue"
+	"github.com/whuhyw/data_structure/queue"
 )
 
 func main() {
