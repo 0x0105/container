@@ -3,12 +3,14 @@ package stack
 import (
 	"fmt"
 	"reflect"
-	"container/heap"
+
+	mapset "github.com/deckarep/golang-set"
 )
 
 var _ Stack = (*entry)(nil)
 
 func newEntry() *entry {
+	mapset.NewSet()
 	e := &entry{
 		s:    []Element{},
 		size: 0,
@@ -22,8 +24,7 @@ type entry struct {
 }
 
 func (e *entry) Equal(s Stack) bool {
-	reflect.DeepEqual()
-	container.
+
 	if e.Size() != s.Size() {
 		return false
 	}

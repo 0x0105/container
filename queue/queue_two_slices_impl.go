@@ -70,9 +70,6 @@ func (e *entry) Empty() bool {
 }
 
 func (e *entry) String() string {
-	s := NewQueue()
-	for !e.Empty() {
-		s.Push(e.Pop())
-	}
-	return s.String()
+	e.reload()
+	return e.s2.String()
 }

@@ -12,11 +12,3 @@ type Stack interface {
 	String() string
 	Equal(s Stack) bool
 }
-
-func NewStack() *entry {
-	return newEntry()
-}
-
-func NewThreadSafeStack() *threadSafeStack {
-	return newThreadSafeStack()
-}
